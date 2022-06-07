@@ -1,0 +1,30 @@
+#leftImage {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.row{
+    margin:0;
+    padding:0;
+}
+
+.imageContainer {
+   
+    height:100%;
+    padding:5%;
+}
+.textContainer{
+    padding:5%;
+
+}
+
+#title{
+    text-align:center;
+}
+
+#description{
+    margin-top:30px;
+    font-size:larger;
+    text-align:justify;
+}

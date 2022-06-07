@@ -98,7 +98,7 @@ class Home extends React.Component {
                     <BottomNavigationAction label="Email" icon={<EmailIcon />} onClick={(e) => {
                         window.open('mailto:test@example.com');} } />
                     <BottomNavigationAction label="Phone" icon={<LocalPhoneIcon />} onClick={(e) => { document.location.href = "tel:+375292771265"; }} />
-                    <BottomNavigationAction label="Location" icon={<LocationOnIcon />} />
+                    <BottomNavigationAction label="Location" icon={<LocationOnIcon />} onClick={(e) => { window.open("https://maps.google.com/?q=13.0351104,77.5585792") }} />
                 </BottomNavigation>
             </Paper>
            
