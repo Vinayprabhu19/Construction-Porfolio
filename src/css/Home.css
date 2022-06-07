@@ -1,0 +1,39 @@
+#buildingContainer1 {
+    max-width: 100%;
+}
+
+#building1{
+    width:100%;
+    max-height:600px;
+    object-fit:cover;
+}
+
+.titleBlock {
+    margin: auto;
+    padding-top: 40px;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.titleBlock h1,h5{
+    text-align:center;
+}
+
+.titleBlock p{
+    text-align:justify;
+    font-size:larger;
+    margin-top:30px;
+}
+
+.row{
+    padding:20px 10% 20px 10%;
+    margin:0 0 20px  0;
+}
+
+.card{
+    margin:20px;
+}
+
+/** {
+    outline: 1px solid #f00 !important;
+}*/
