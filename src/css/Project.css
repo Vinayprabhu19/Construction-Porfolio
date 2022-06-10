@@ -1,0 +1,18 @@
+.myCard{
+    max-width:20rem;
+}
+
+.dialog{
+    width:60%;
+}
+
+.dialogTitle{
+    text-align:center;
+    font-size:large;
+}
+
+.card-title{
+    font-size:large;
+    overflow-wrap:break-word;
+    text-align:center;
+}
