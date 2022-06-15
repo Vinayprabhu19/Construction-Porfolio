@@ -34,7 +34,7 @@ class Projects extends React.Component {
                 </div>
 
             </nav>
-            <div class="row">
+            <div class="row aboutInfo">
                     <div class="col-sm-12 col-lg-6 imageContainer">
                         <img src={construction} id="leftImage"/>
                     </div>

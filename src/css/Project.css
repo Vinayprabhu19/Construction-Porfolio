@@ -16,3 +16,12 @@
     overflow-wrap:break-word;
     text-align:center;
 }
+
+.container{
+    margin-bottom:100px;
+}
+
+.cardImage{
+    height:180px;
+    object-fit:cover;
+}

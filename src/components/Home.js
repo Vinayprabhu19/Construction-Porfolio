@@ -52,7 +52,7 @@ class Home extends React.Component {
                 
             </div>
 
-                <div class="row">
+                <div class="row projectTiles">
                 <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                     <div class="card myCard" >
                         <img class="card-img-top" src={commercial} alt="Card image cap"></img>

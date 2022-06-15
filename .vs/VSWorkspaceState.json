@@ -2,10 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\public",
+    "\\public\\images",
+    "\\public\\images\\Completed",
+    "\\public\\images\\Completed\\Project3",
     "\\src",
     "\\src\\components",
-    "\\src\\css",
-    "\\src\\img"
+    "\\src\\css"
   ],
+  "SelectedNode": "\\src\\css\\Home.css",
   "PreviewInSolutionExplorer": false
 }

@@ -35,6 +35,13 @@ class Projects extends React.Component {
         
     }
     onTileClick(info) {
+        var imgs = [];
+        for (var i = 1; i <= info.count; i++) {
+            var d = info.dir + "img" + i + ".jpg";
+            imgs.push(images(d));
+        }
+        info.pics = imgs;
+
         this.setState({
             galleryOpen: true,
             selectedProject:info
@@ -100,9 +107,7 @@ class Projects extends React.Component {
                         <div class="row">
                             {
                                 this.state.projects.ongoing.map(p => {
-                                    return   <ProjectCard key={p.title} info={p} tileClick={this.onTileClick}
-
-                                        />
+                                    return   <ProjectCard key={p.title} info={p} tileClick={this.onTileClick}/>
                             })
                             }
                         </div>
@@ -147,77 +152,64 @@ class Projects extends React.Component {
     }
     getProjectDetails() {
         var completed = [{
-            title: "Project 1",
-            description: "Description of project",
-            titleImage: images("./Completed/Project1/img1.jpg"),
-            pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-            ]
+            title: "Airport Backfilling",
+            description: "",
+            titleImage: images("./Completed/Airport Backfilling/title.jpg"),
+            dir: "./Completed/Airport Backfilling/",
+            count:7
         },
             {
-                title: "Project 2",
-                description: "Description of project",
-                titleImage: images("./Completed/Project2/img1.jpg"),
-                pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-                ]
+                title: "Fabrications",
+                description: "",
+                titleImage: images("./Completed/Fabrications/title.jpg"),
+                dir: "./Completed/Fabrications/",
+                count: 9
             },
             {
-                title: "Project 3",
-                description: "Description of project",
-                titleImage: images("./Completed/Project1/img1.jpg"),
-                pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-                ]
+                title: "Annapurneshwari Nagar",
+                description: "",
+                titleImage: images("./Completed/Annapurneshwari nagar/title.jpg"),
+                dir: "./Completed/Annapurneshwari nagar/",
+                count: 7
             },
             {
-                title: "Project 4",
-                description: "Description of project",
-                titleImage: images("./Completed/Project3/img1.webp"),
-                pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-                ]
+                title: "Jalahalli",
+                description: "",
+                titleImage: images("./Completed/Jalahalli/title.jpg"),
+                dir: "./Completed/Jalahalli/",
+                count: 18
             },
             {
-                title: "Project 5",
-                description: "Description of project",
-                titleImage: images("./Completed/Project2/img1.jpg"),
-                pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-                ]
+                title: "Narayana College",
+                description: "",
+                titleImage: images("./Completed/Narayana College/title.jpg"),
+                dir: "./Completed/Narayana College/",
+                count: 7
+            },
+            {
+                title: "Painting",
+                description: "",
+                titleImage: images("./Completed/Painting/title.jpg"),
+                dir: "./Completed/Painting/",
+                count: 5
+            },
+            {
+                title: "Renovation",
+                description: "",
+                titleImage: images("./Completed/Renovation/title.jpg"),
+                dir: "./Completed/Renovation/",
+                count: 17
+            },
+            {
+                title: "Terrace Waterproofing",
+                description: "",
+                titleImage: images("./Completed/Terrace waterproofing/title.jpg"),
+                dir: "./Completed/Terrace waterproofing/",
+                count: 6
             }
 
         ];
-        var ongoing = [{
-            title: "Project 1",
-            description: "Description of project",
-            titleImage: images("./Completed/Project1/img1.jpg"),
-            pics: [images("./Completed/Project1/img1.jpg"),
-            images("./Completed/Project1/img2.webp"),
-            images("./Completed/Project1/img3.jpg"),
-            images("./Completed/Project1/img4.jpg"),
-            ]
-        },
-            {
-                title: "Project 2",
-                description: "Description of project",
-                titleImage: images("./Completed/Project2/img1.jpg"),
-                pics: [images("./Completed/Project1/img1.jpg"),
-                images("./Completed/Project1/img2.webp"),
-                images("./Completed/Project1/img3.jpg"),
-                images("./Completed/Project1/img4.jpg"),
-                ]
-            }];
+        var ongoing = [];
         return {
             completed: completed,
             ongoing: ongoing

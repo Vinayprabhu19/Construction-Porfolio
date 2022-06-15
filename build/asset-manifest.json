@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d633ee8a.css",
+    "main.js": "/static/js/main.aaf219ba.js",
+    "static/js/787.1e832603.chunk.js": "/static/js/787.1e832603.chunk.js",
+    "static/media/img2.jpg": "/static/media/img2.09d69b9e8c504d78546d.jpg",
+    "static/media/img4.jpg": "/static/media/img4.3cd5d7e7bc788f5e0dfe.jpg",
+    "static/media/img3.jpg": "/static/media/img3.7040b63fbaa1224aba21.jpg",
+    "static/media/building1.jpg": "/static/media/building1.5856bc1abf2d3a9fd83d.jpg",
+    "static/media/img1.jpg": "/static/media/img1.cc2e0d26a019a4fddc57.jpg",
+    "static/media/construction.jpg": "/static/media/construction.9d72234a74b73cede0e5.jpg",
+    "static/media/residential.jpeg": "/static/media/residential.a592fc5a4eb64c6d1532.jpeg",
+    "static/media/educational.jpeg": "/static/media/educational.f35e778e1a4d07f8aa5b.jpeg",
+    "static/media/interior.jpeg": "/static/media/interior.6684d14626ba64e5abb2.jpeg",
+    "static/media/contact.jpg": "/static/media/contact.9135164d8ac3e08a898f.jpg",
+    "static/media/img2.webp": "/static/media/img2.9ef84d692798ce6e815d.webp",
+    "static/media/commercial.webp": "/static/media/commercial.98de35d82a5049e67afd.webp",
+    "static/media/soldering.jpeg": "/static/media/soldering.c54dbdf7edbd68f56cf9.jpeg",
+    "static/media/img1.webp": "/static/media/img1.d37383bbd833918df6d6.webp",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.d633ee8a.css.map": "/static/css/main.d633ee8a.css.map",
+    "main.aaf219ba.js.map": "/static/js/main.aaf219ba.js.map",
+    "787.1e832603.chunk.js.map": "/static/js/787.1e832603.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d633ee8a.css",
+    "static/js/main.aaf219ba.js"
+  ]
+}
